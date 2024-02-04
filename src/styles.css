@@ -13,9 +13,15 @@ footer {
   margin: auto;
 }
 
+footer a {
+  color: #68d211;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 body {
-  background: #376c55;
-  color: hsl(145, 47%, 43%);
+  background: #04321e;
+  color: #3aa165;
   height: 100vh;
   max-width: 600px;
   padding: 1rem;
@@ -38,8 +44,12 @@ body {
   gap: 0.1rem;
 }
 
+.form-row label {
+  color: #3fb099;
+}
+
 .btn {
-  background: hsl(128, 53%, 30%);
+  background: #376c55;
   border: 1px solid hsl(158, 48%, 41%);
   color: hsl(0, 0%, 100%);
   padding: 0.6em 0.5em;
@@ -55,8 +65,8 @@ body {
 
 .btn.btn-danger {
   background: hsl(0, 100%, 40%, 0.1);
-  border: 1px solid hsl(0, 100%, 40%);
-  color: hsl(0, 100%, 40%);
+  border: 1px solid #b66868;
+  color: #b66868;
 }
 
 .btn.btn-danger:hover,
@@ -66,22 +76,23 @@ body {
 
 .new-item-form input {
   outline: none;
-  border: 1px solid hsl(117, 16%, 47%);
-  background: hsl(124, 57%, 24%);
+  border: 1px solid #3aa165;
+  background: hsl(135, 9%, 9%);
   border-radius: 0.25em;
   padding: 0.6em 0.5em;
-  color: hsl(200, 100%, 90%);
+  color: #5aaf57;
   font-size: 1.6rem;
 }
 
 .new-item-form input:focus {
-  border: 1px solid hsl(200, 100%, 70%);
+  border: 1px solid hsl(200, 46%, 40%);
 }
 
 .header {
   font-size: 3rem;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
+  color: #3fb099;
 }
 
 .list {
